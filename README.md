@@ -15,3 +15,14 @@ The project uses [Midje](https://github.com/marick/Midje/).
 `lein midje :autotest` will run all the tests indefinitely. It sets up a
 watcher on the code files. If they change, only the relevant tests will be
 run again.
+
+
+## Resources
+
+For learning Clojure:
+ - Clojure [docs](https://clojure.org/)
+
+For TDD in Clojure:
+ - https://sites.google.com/site/unclebobconsultingllc/home/articles/tdd-in-clojure
+ - https://engineering.fundingcircle.com/blog/2016/01/11/tdd-in-clojure/
+ - https://www.linkedin.com/pulse/getting-started-tdd-clojure-richard-wild/
