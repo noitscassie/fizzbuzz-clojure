@@ -6,5 +6,9 @@
 (facts "about `fizzbuzz`"
   (fact "it returns 'fizz' for multiples of 3"
     (fizzbuzz 3) => "fizz"
+    (fizzbuzz 6) => "fizz"
+  )
+  (fact "it returns 'buzz' for multiples of 5"
+    (fizzbuzz 5) => "buzz"
   )
 )
