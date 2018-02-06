@@ -13,4 +13,8 @@
     (fizzbuzz 5) => "buzz"
     (fizzbuzz 10) => "buzz"
   )
+  (fact "it returns 'fizzbuzz' for multiples of 3 and 5"
+    (fizzbuzz 15) => "fizzbuzz"
+    (fizzbuzz 30) => "fizzbuzz"
+  )
 )
