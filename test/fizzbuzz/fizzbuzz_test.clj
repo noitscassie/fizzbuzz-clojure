@@ -3,7 +3,8 @@
   (:use [fizzbuzz.fizzbuzz])
 )
 
-(facts "about `fizz`"
-  (fact "it returns 'fizz' for 3"
-    (fizzbuzz 3 :default) => "fizz" 
-    ))
+(facts "about `fizzbuzz`"
+  (fact "it returns 'fizz' for multiples of 3"
+    (fizzbuzz 3) => "fizz"
+  )
+)
