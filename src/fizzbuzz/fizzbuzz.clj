@@ -1,3 +1,3 @@
 (ns fizzbuzz.fizzbuzz)
 
-(defn fizzbuzz [number])
+(defn fizzbuzz [number] (str "fizz") )
